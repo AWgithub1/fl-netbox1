@@ -1,0 +1,17 @@
+---
+plugin: netbox.netbox.nb_inventory
+validate_certs: False
+config_context: False
+group_by:
+#  - device_roles
+query_filters:
+#  - role: router
+device_query_filters:
+#  - has_primary_ip: "true"
+#ansible_host_dns_name: false
+#config_context: false
+
+#device_type: ex4400-24t-dc
+
+#query_filters:
+#  - role: router
