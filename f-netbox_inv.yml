@@ -5,9 +5,9 @@ config_context: False
 collection:
    - ansible.builtin
 group_by:
-#  - device_roles
+ - device_roles
 query_filters:
-#  - role: router
+ - role: router
 device_query_filters:
 #  - has_primary_ip: "true"
 #ansible_host_dns_name: false
